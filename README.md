@@ -1,6 +1,6 @@
 # Molecular Dynamics Simulation of a Polymer-Metal Interface
 
-We are currently investigating [the ballistic impact resistance of polymer-metal multilayers using molecular dynamics.](https://www.linkedin.com/pulse/mechanical-behaviour-nanomaterials-under-shock-nuwan-dewapriya/) This project showed us that modelling material interfaces could be challenging even for someone with a background in atomic simulations. Therefore, we thought of sharing some useful information and the LAMMPS input files required to model the aluminum-polyurethane system shown below. A movie of the simulation is [vaialable here](https://youtu.be/Nx7B1W6U_m8).
+We are currently investigating [the ballistic impact resistance of polymer-metal multilayers using molecular dynamics.](https://www.linkedin.com/pulse/mechanical-behaviour-nanomaterials-under-shock-nuwan-dewapriya/) This project showed us that modelling material interfaces could be challenging even for someone with a background in atomic simulations. Therefore, we thought of sharing some useful information and the LAMMPS input files to model the aluminum-polyurethane system shown below. A movie of the simulation is [vaialable here](https://youtu.be/Nx7B1W6U_m8).
 
  <img src="image.PNG" width="300">
 
