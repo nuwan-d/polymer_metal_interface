@@ -6,7 +6,7 @@ We are currently investigating [the impact resistance of multilayers using molec
  
  
 # Modelling of aluminum:
-The command create_atoms in LAMMPS was used to model aluminum. [In this tutorial](https://github.com/mrkllntschpp/lammps-tutorials/blob/master/LAMMPS-Tutorials-03.ipynb), Mark Tschopp outlines how to use create_atoms command to generate a crystal containing a grain boundary. 
+The command create_atoms in LAMMPS was used to model aluminum. [In this tutorial](https://github.com/mrkllntschpp/lammps-tutorials/blob/master/LAMMPS-Tutorials-03.ipynb), Mark Tschopp outlines how to use the create_atoms command to generate a crystal containing a grain boundary. 
 I used the [EAM potential by Adams and Ercolessi](https://openkim.org/id/EAM_Dynamo_ErcolessiAdams_1994_Al__MO_123629422045_005) to model aluminum. 
 
 
