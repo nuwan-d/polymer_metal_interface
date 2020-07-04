@@ -19,7 +19,9 @@ I used the [EAM potential by Adams and Ercolessi](https://openkim.org/id/EAM_Dyn
 
 # Aluminum-polyurethane interface:
 The two data files (i.e. polyurethane and aluminum) can be combined using MATLAB or even MS Excel. When combining the two models, careful attention needed to be paid to the image flags of the atoms in the polymer to make sure that they do not have crossed the periodic boundary.
-In this simulation, the non-bonded interactions between aluminum and polyurea were modelled using the van der Waals parameters available the [interface force field](https://bionanostructures.com/interface-md/). 
+In this simulation, the non-bonded interactions between aluminum and polyurea were modelled using the van der Waals parameters available the [interface force field](https://bionanostructures.com/interface-md/).
+
+I used [OVITO](https://www.ovito.org/) to visulalize MD tragectories of this simulation. A great introductory tutorial on OVITO is [available here](https://youtu.be/z4rogk8pdt4). [VMD](https://www.ks.uiuc.edu/Research/vmd/vmd-1.9.3/) is another very useful visualization tool. 
 
 Many questions related to LAMMPS have been answered in the [LAMMPS mail list](https://lammps.sandia.gov/mail.html). If you would like to learn the basics of atomic simulations, the book [Modeling Materials: Continuum, Atomistic and Multiscale Techniques](http://www.modelingmaterials.org/the-books) could be useful.
 
