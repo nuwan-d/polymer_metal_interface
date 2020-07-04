@@ -15,9 +15,9 @@ Modelling a polymer can be challenging depending on the complexity of an individ
 
  <img src="structure.PNG" width="500">
  
-I created the polymer chain using the [Enhanced Monte Carlo Package](http://montecarlo.sourceforge.net/emc/Welcome.html) by Pieter J. in ’t Veld. Another useful package to build polymers is [Moltemplate](https://www.moltemplate.org/) by Andrew Jewett. 
+I created the polymer chain using the [Enhanced Monte Carlo Package](http://montecarlo.sourceforge.net/emc/Welcome.html) by Pieter J. in ’t Veld.  [Moltemplate](https://www.moltemplate.org/) by Andrew Jewett is another useful tool to build polymers. I used the polymer consistent force field (PCFF) for modelling polyurethane.
 
-Mark Tschopp has provided an overview of modelling of [a polymer chain](https://github.com/mrkllntschpp/lammps-tutorials/blob/master/LAMMPS-Tutorials-08.ipynb) and an [amorphous polyethylene sample](https://icme.hpc.msstate.edu/mediawiki/index.php/Deformation_of_Amorphous_Polyethylene) in LAMMPS. Moreover, Appendix A of the reference [1] and the reference [2] provide some useful information about modelling polymers. I used the polymer consistent force field (PCFF) for modelling polyurea.
+Mark Tschopp has provided an overview of modelling of [a polymer chain](https://github.com/mrkllntschpp/lammps-tutorials/blob/master/LAMMPS-Tutorials-08.ipynb) and an [amorphous polyethylene sample](https://icme.hpc.msstate.edu/mediawiki/index.php/Deformation_of_Amorphous_Polyethylene) in LAMMPS. Moreover, Appendix A of the reference [1] and the reference [2] provide some useful information about modelling polymers. 
 
 
 # Aluminum-polyurethane interface:
