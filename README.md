@@ -26,7 +26,7 @@ In this simulation, the non-bonded interactions between aluminum and polyurea we
 
 I used [OVITO](https://www.ovito.org/) to visulalize MD tragectories of this simulation. A great introductory tutorial on OVITO is [available here](https://youtu.be/z4rogk8pdt4). [VMD](https://www.ks.uiuc.edu/Research/vmd/vmd-1.9.3/) is another very useful visualization tool. 
 
-Many questions related to LAMMPS have been answered in the [LAMMPS mail list](https://lammps.sandia.gov/mail.html). If you would like to learn the basics of atomic simulations, the book [Modeling Materials: Continuum, Atomistic and Multiscale Techniques](http://www.modelingmaterials.org/the-books) could be useful.
+Many simulation questions have been answered in the [LAMMPS mail list](https://lammps.sandia.gov/mail.html). If you would like to learn the basics of atomic simulations, the book [Modeling Materials: Continuum, Atomistic and Multiscale Techniques](http://www.modelingmaterials.org/the-books) could be useful.
 
 I hope that this information and the LAMMPS files will be useful for those who are interested in modelling material interfaces. Good luck!
 
