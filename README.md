@@ -7,7 +7,7 @@ We are currently investigating [the impact resistance of multilayers using molec
 # Modelling of polyurethane:
 Modelling a polymer can be challenging depending on the complexity of an individual polymer chain. The structure of the polyurethane chain shown in the above video can be depicted as below.
 
- <img src="structure.PNG" width="400">
+ <img src="structure.PNG" width="500">
  
 I created the polymer chain using the [Enhanced Monte Carlo Package](http://montecarlo.sourceforge.net/emc/Welcome.html) by Pieter J. in ’t Veld. Another useful package to build polymers is [Moltemplate](https://www.moltemplate.org/) by Andrew Jewett. 
 
