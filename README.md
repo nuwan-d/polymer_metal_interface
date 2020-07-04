@@ -17,7 +17,7 @@ Mark Tschopp has provided an overview of [modelling a polymer chain](https://git
 The command create_atoms in LAMMPS can be used to model aluminum. [In this tutorial](https://github.com/mrkllntschpp/lammps-tutorials/blob/master/LAMMPS-Tutorials-03.ipynb), Mark Tschopp outlines how to use create_atoms command to generate a grain boundary. 
 I used the [EAM potential by Adams and Ercolessi](https://openkim.org/id/EAM_Dynamo_ErcolessiAdams_1994_Al__MO_123629422045_005) to model aluminum. 
 
-# Combining aluminum and polyurethane:
+# Aluminum-polyurethane interface:
 The two data files (i.e. polyurethane and aluminum) can be combined using MATLAB or even MS Excel. When combining the two models, careful attention needed to be paid to the image flags of the atoms in the polymer chain to make sure that they do not have crossed the periodic boundary.
 In this simulation, the non-bonded interactions between aluminum and polyurea were modelled using the van der Waals parameters available the [interface force field](https://bionanostructures.com/interface-md/). 
 
