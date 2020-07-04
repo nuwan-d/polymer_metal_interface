@@ -3,6 +3,12 @@
 We are currently investigating [the impact resistance of multilayers using molecular dynamics.](https://www.linkedin.com/pulse/mechanical-behaviour-nanomaterials-under-shock-nuwan-dewapriya/) This project showed us that modelling material interfaces could be challenging even for someone with a background in atomic simulations. Therefore, we would like to share some useful information and the LAMMPS input files to model the aluminum-polyurethane system shown below. A movie of the simulation is [vailable here](https://youtu.be/Nx7B1W6U_m8).
 
  <img src="image.PNG" width="300">
+ 
+ 
+# Modelling of aluminum:
+The command create_atoms in LAMMPS was used to model aluminum. [In this tutorial](https://github.com/mrkllntschpp/lammps-tutorials/blob/master/LAMMPS-Tutorials-03.ipynb), Mark Tschopp outlines how to use create_atoms command to generate a crystal containing a grain boundary. 
+I used the [EAM potential by Adams and Ercolessi](https://openkim.org/id/EAM_Dynamo_ErcolessiAdams_1994_Al__MO_123629422045_005) to model aluminum. 
+
 
 # Modelling of polyurethane:
 Modelling a polymer can be challenging depending on the complexity of an individual polymer chain. The structure of the polyurethane chain shown in the above video can be depicted as below.
@@ -13,9 +19,6 @@ I created the polymer chain using the [Enhanced Monte Carlo Package](http://mont
 
 Mark Tschopp has provided an overview of modelling of [a polymer chain](https://github.com/mrkllntschpp/lammps-tutorials/blob/master/LAMMPS-Tutorials-08.ipynb) and an [amorphous polyethylene sample](https://icme.hpc.msstate.edu/mediawiki/index.php/Deformation_of_Amorphous_Polyethylene) in LAMMPS. Moreover, Appendix A of the reference [1] and the reference [2] also provide some useful information about modelling polymers. I used the polymer consistent force field (PCFF) for modelling polyurea.
 
-# Modelling of aluminum:
-The command create_atoms in LAMMPS was used to model aluminum. [In this tutorial](https://github.com/mrkllntschpp/lammps-tutorials/blob/master/LAMMPS-Tutorials-03.ipynb), Mark Tschopp outlines how to use create_atoms command to generate a crystal containing a grain boundary. 
-I used the [EAM potential by Adams and Ercolessi](https://openkim.org/id/EAM_Dynamo_ErcolessiAdams_1994_Al__MO_123629422045_005) to model aluminum. 
 
 # Aluminum-polyurethane interface:
 The two data files (i.e. polyurethane and aluminum) can be combined using MATLAB or even MS Excel. When combining the two models, careful attention needed to be paid to the image flags of the atoms in the polymer to make sure that they do not have crossed the periodic boundary.
