@@ -21,7 +21,7 @@ I used the [EAM potential by Adams and Ercolessi](https://openkim.org/id/EAM_Dyn
 The two data files (i.e. polyurethane and aluminum) can be combined using MATLAB or even MS Excel. When combining the two models, careful attention needed to be paid to the image flags of the atoms in the polymer chain to make sure that they do not have crossed the periodic boundary.
 In this simulation, the non-bonded interactions between aluminum and polyurea were modelled using the van der Waals parameters available the [interface force field](https://bionanostructures.com/interface-md/). 
 
-Many questions related to LAMMPS have been answered on the [LAMMPS mail list](https://lammps.sandia.gov/mail.html). If you want to learn the basics of atomistic simulations of fracture, the book [Modeling Materials: Continuum, Atomistic and Multiscale Techniques](http://www.modelingmaterials.org/the-books) could be useful.
+Many questions related to LAMMPS have been answered in the [LAMMPS mail list](https://lammps.sandia.gov/mail.html). If you want to learn the basics of atomistic simulations of fracture, the book [Modeling Materials: Continuum, Atomistic and Multiscale Techniques](http://www.modelingmaterials.org/the-books) could be useful.
 
 I hope that this information will be useful for those who are interested in modelling material interfaces. Good luck!
 
