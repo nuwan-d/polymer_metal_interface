@@ -13,7 +13,7 @@ I used the [EAM potential by Adams and Ercolessi](https://openkim.org/id/EAM_Dyn
 # Modelling of polyurethane:
 Modelling a polymer can be challenging depending on the complexity of an individual polymer chain. The structure of the polyurethane chain shown in the above video can be depicted as below.
 
- <img src="structure.PNG" width="600">
+ <img src="structure-pu.PNG" width="600">
  
 I created the polymer chain using the [Enhanced Monte Carlo Package](http://montecarlo.sourceforge.net/emc/Welcome.html) by Pieter J. in ’t Veld.  [Moltemplate](https://www.moltemplate.org/) by Andrew Jewett is another useful tool to build polymers. I used the polymer consistent force field (PCFF) for modelling polyurethane.
 
