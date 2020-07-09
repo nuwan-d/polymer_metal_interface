@@ -1,23 +1,23 @@
 # Molecular Dynamics Simulation of a Polymer-Metal Interface
 
-We are currently investigating [the impact resistance of multilayers using molecular dynamics.](https://www.linkedin.com/pulse/mechanical-behaviour-nanomaterials-under-shock-nuwan-dewapriya/) This project showed us that modelling material interfaces could be challenging even for someone with a background in atomic simulations. Therefore, we would like to share some useful information and the LAMMPS input files to model the aluminum-polyurethane system shown below. A movie of the simulation is [vailable here](https://youtu.be/Nx7B1W6U_m8).
+We are currently investigating [the impact resistance of multilayers using molecular dynamics.](https://www.linkedin.com/pulse/mechanical-behaviour-nanomaterials-under-shock-nuwan-dewapriya/) This project showed us that the modeling of material interfaces could be challenging even for someone with a background in atomic simulations. Therefore, we would like to share some useful information and the LAMMPS input files to model the aluminum-polyurethane system shown below. A movie of the simulation is [vailable here](https://youtu.be/Nx7B1W6U_m8).
 
  <img src="image.PNG" width="300">
  
  
-# Modelling of aluminum:
+# Modeling of aluminum:
 The command create_atoms in LAMMPS was used to model aluminum. [In this tutorial](https://github.com/mrkllntschpp/lammps-tutorials/blob/master/LAMMPS-Tutorials-03.ipynb), Mark Tschopp outlines how to use the create_atoms command to generate a crystal containing a grain boundary. 
 I used the [EAM potential by Adams and Ercolessi](https://openkim.org/id/EAM_Dynamo_ErcolessiAdams_1994_Al__MO_123629422045_005) to model aluminum. 
 
 
-# Modelling of polyurethane:
-Modelling a polymer can be challenging depending on the complexity of an individual polymer chain. The structure of the polyurethane chain shown in the above video can be depicted as below.
+# Modeling of polyurethane:
+Modeling polymers can be challenging depending on the complexity of an individual polymer chain. The structure of the polyurethane chain shown in the above video can be depicted as below.
 
  <img src="structure-pu.PNG" width="600">
  
-I created the polymer chain using the [Enhanced Monte Carlo Package](http://montecarlo.sourceforge.net/emc/Welcome.html) by Pieter J. in ’t Veld.  [Moltemplate](https://www.moltemplate.org/) by Andrew Jewett is another useful tool to build polymers. I used the polymer consistent force field (PCFF) for modelling polyurethane.
+I created the polymer chain using the [Enhanced Monte Carlo Package](http://montecarlo.sourceforge.net/emc/Welcome.html) by Pieter J. in ’t Veld.  [Moltemplate](https://www.moltemplate.org/) by Andrew Jewett is another useful tool to build polymers. Both Pieter and Andrew were very helpful when I was modeling polymers. I used the polymer consistent force field (PCFF) to model polyurethane.
 
-Mark Tschopp has provided an overview of modelling of [a polymer chain](https://github.com/mrkllntschpp/lammps-tutorials/blob/master/LAMMPS-Tutorials-08.ipynb) and an [amorphous polyethylene sample](https://icme.hpc.msstate.edu/mediawiki/index.php/Deformation_of_Amorphous_Polyethylene) in LAMMPS. Moreover, Appendix A of the reference [1] and the reference [2] provide some useful information about modelling polymers. 
+Mark Tschopp has provided an overview of modeling of [a polymer chain](https://github.com/mrkllntschpp/lammps-tutorials/blob/master/LAMMPS-Tutorials-08.ipynb) and an [amorphous polyethylene sample](https://icme.hpc.msstate.edu/mediawiki/index.php/Deformation_of_Amorphous_Polyethylene) in LAMMPS. Moreover, Appendix A of the reference [1] and the reference [2] provide some useful information about modeling polymers. 
 
 
 # Aluminum-polyurethane interface:
@@ -28,7 +28,7 @@ I used [OVITO](https://www.ovito.org/) to visulalize MD tragectories of this sim
 
 Many simulation questions have been answered in the [LAMMPS mail list](https://lammps.sandia.gov/mail.html). If you would like to learn the basics of atomic simulations, the book [Modeling Materials: Continuum, Atomistic and Multiscale Techniques](http://www.modelingmaterials.org/the-books) could be useful.
 
-I hope that this information and the LAMMPS files will be useful for those who are interested in modelling material interfaces. Good luck!
+I hope that this information and the LAMMPS files will be useful for those who are interested in modeling of material interfaces. Good luck!
 
 # References
 [1] A.P. Awasthi, D.C. Lagoudas, D.C. Hammerand, Modeling of graphene–polymer interfacial mechanical behavior using molecular dynamics, Model. Simul. Mater. Sci. Eng. 17 (2009) 015002.
