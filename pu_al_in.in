@@ -13,9 +13,9 @@ include            "pu_al_para.params"
 
 # -----------------Integration-----------------
 
-timestep        0.5
-variable        t_step equal 0.5
-kspace_style	pppm 1.0e-6
+timestep           0.5
+variable           t_step equal 0.5
+kspace_style	     pppm 1.0e-6
 
 
 # ----------------- Minimization-----------------
@@ -28,9 +28,13 @@ reset_timestep     0
 
 # -----------------Run-----------------
 
-fix		1 all nve
-fix		2 all langevin 300.0 300.0 $(100.0*v_t_step) 904297
+fix		      1 all nve
+fix		      2 all langevin 300.0 300.0 $(100.0*v_t_step) 904297
 
-thermo          2000
-dump          	1 all atom 2000 al_pu_equilibration.lammpstrj
-run 	      	100000
+variable    E_t equal etotal
+variable    time equal time*0.001
+fix         write all print 100 "${time} ${E_t}" file energy.dump screen no
+
+thermo      2000
+dump        1 all atom 2000 al_pu_equilibration.lammpstrj
+run 	      100000
