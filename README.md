@@ -33,7 +33,7 @@ I used [OVITO](https://www.ovito.org/) to visulalize MD tragectories of this sim
 
 Many simulation questions have been answered in the [LAMMPS mail list](https://lammps.sandia.gov/mail.html). If you would like to learn the basics of atomic simulations, the book [Modeling Materials: Continuum, Atomistic and Multiscale Techniques](http://www.modelingmaterials.org/the-books) could be useful.
 
-More information about modelling aluminum-polyurea multilayers is available in our publication: [Molecular dynamics study of the mechanical behaviour of ultrathin polymer–metal multilayers under extreme dynamic conditions.](https://authors.elsevier.com/a/1bTyA3In-uoy8a)
+More information about modelling aluminum-polyurea multilayers is available in our publication: [Molecular dynamics study of the mechanical behaviour of ultrathin polymer–metal multilayers under extreme dynamic conditions.](https://www.sciencedirect.com/science/article/abs/pii/S0927025620304420)
 
 I hope that this information and the LAMMPS files will be useful for those who are interested in modeling of material interfaces. Good luck!
 
