@@ -35,6 +35,11 @@ Many simulation questions have been answered in the [LAMMPS mail list](https://l
 
 More information about modelling aluminum-polyurea multilayers is available in our publication: [Molecular dynamics study of the mechanical behaviour of ultrathin polymer–metal multilayers under extreme dynamic conditions.](https://www.sciencedirect.com/science/article/abs/pii/S0927025620304420)
 
+The LAMMPS files required to run MD simulations of impact tests of the aluminum/polyurea structure shown below is [available here.](https://github.com/nuwan-d/md_impact_tests)
+
+ <img src="https://github.com/nuwan-d/md_impact_tests/blob/main/MD_model.JPG" width="600">
+
+
 I hope that this information and the LAMMPS files will be useful for those who are interested in modeling of material interfaces. Good luck!
 
 # References
