@@ -33,7 +33,7 @@ I used [OVITO](https://www.ovito.org/) to visulalize MD tragectories of this sim
 
 Many simulation questions have been answered in the [LAMMPS mail list](https://lammps.sandia.gov/mail.html). If you would like to learn the basics of atomic simulations, the book [Modeling Materials: Continuum, Atomistic and Multiscale Techniques](http://www.modelingmaterials.org/the-books) could be useful.
 
-More information about modelling aluminum-polyurea multilayers is available in our publication: [Molecular dynamics study of the mechanical behaviour of ultrathin polymer–metal multilayers under extreme dynamic conditions.](https://www.sciencedirect.com/science/article/abs/pii/S0927025620304420)
+More information about modelling aluminum-polyurea multilayers is available in our publication: [Energy absorption mechanisms of nanoscopic multilayer structures under ballistic impact loading.](https://www.sciencedirect.com/science/article/abs/pii/S0927025621002299)
 
 The LAMMPS files required to run MD simulations of impact tests of the aluminum/polyurea structure shown below is [available here.](https://github.com/nuwan-d/md_impact_tests)
 
